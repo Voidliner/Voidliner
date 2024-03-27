@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fade In/Out Images with Counter (Automated)</title>
+    <link rel = "stylesheet" href = "styles.css">
+</head>
+<body>
+ 
+    <div class="image-container">
+        <img id="myImage1" src="pic.jpg" alt="Description of your first image">
+        <img id="myImage2" src="pic2.jpg" alt="Description of your second image">
+        <img id="myImage3" src="pic3.jpg" alt="Description of your third image">
+        <img id="myImage4" src="pic4.jpg" alt="Description of your fourth image">
+        <img id="myImage5" src="pic5.jpg" alt="Description of your fifth image">
+        <img id="myImage6" src="pic6.jpg" alt="Description of your sicth image">
+	<p>Click Count: <span id="clickCount"></span></p>
+        <p class = "Main_Title" id = "Main_Title">VOIDLINER</p>
+     	<p class = "Main_Tagline" id = "Main_Tagline">Journey into the depths of mystery and beyond</p>
+	<button class="Menu_Button" id="Menu"></button>
+	<div class = "Menu_Panel" id="Menu_Panel"></div>
+    </div>
+
+    <div class="Header">	
+    </div>
+
+    <audio id="myAudio">
+  	<source src="Notif.wav" type="audio/wav">
+  	Your browser does not support the audio element.
+    </audio>
+    <audio id="BGM1" autoplay loop>
+  	<source src="bgm1.mp3" type="audio/mpeg">
+  	Your browser does not support the audio element.
+    </audio>
+    
+
+    <script src = "script.js"></script>
+</body>
+</html>
